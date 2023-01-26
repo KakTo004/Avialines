@@ -1,0 +1,46 @@
+body{
+    background:goldenrod;
+}
+header{
+    background: rgb(255, 255, 255);
+    border-bottom: 5px solid black;
+}
+.logo img{
+    height: 100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header li a,header li{
+    padding: 15px;
+    color: black;
+    text-decoration-color: hwb(185 70% 0%);
+}
+
+.card{
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.card img{
+    margin-right: 15px;
+    border-radius: 15px;
+}
+main{   
+    width: 450px;
+    margin: 0 auto;
+}
